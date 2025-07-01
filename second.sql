@@ -4,4 +4,8 @@
 -- SHOW TABLES FROM Parks_and_Recreation;
 
 -- USE Parks_and_Recreation;
-SHOW TABLES;
+-- SHOW TABLES;
+-- USE Parks_and_Recreation;
+
+SELECT * 
+FROM employee_demographics;
