@@ -8,4 +8,8 @@
 -- USE Parks_and_Recreation;
 
 SELECT * 
-FROM employee_demographics;
+FROM employee_demographics
+WHERE employee_id = 1;
+
+
+
