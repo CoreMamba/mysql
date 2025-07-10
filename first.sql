@@ -1,2 +1,4 @@
- show databases;
+
+
+DROP TABLE Customerinfo;
 

@@ -142,7 +142,7 @@ CREATE TABLE `customers` (
   UNIQUE KEY `CustomerID` (`CustomerID`),
   UNIQUE KEY `CustomerName` (`CustomerName`)
 ) ENGINE=InnoDB AUTO_INCREMENT=10112 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
-*/
+
 
 CREATE DATABASE IF NOT EXISTS persons
 CHARACTER SET utf8mb4
@@ -252,7 +252,9 @@ INSERT INTO infoofcustomers (CustomerID, CustomerName, ContactName, Address, Cit
 (89, 'White Clover Markets', 'Karl Jablonski', '305 - 14th Ave. S. Suite 3B', 'Seattle', '98128', 'USA'),
 (90, 'Wilman Kala', 'Matti Karttunen', 'Keskuskatu 45', 'Helsinki', '21240', 'Finland'),
 (91, 'Wolski Zbyszek', 'Zbyszek', 'ul. Filtrowa 68', 'Walla', '01-012', 'Poland');
+*/
 
--- DROP TABLE IF EXISTS CustomerInfo;
 
- -- SELECT * FROM persons.CustomerInfo;
+ DROP TABLE Customerinfo;
+
+-- SELECT COUNT(*) FROM persons.infoofcustomers;
